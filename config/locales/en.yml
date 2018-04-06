@@ -1,8 +1,18 @@
 en:
-
   layouts:
+    users:
+      new:
+        title: "Sign up"
+        new: "Users#new"
+        find: "Find me in app/views/users/new.html.erb"
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    _footer:
+      ruby: "Ruby on Rails Tutorial"
+      michael: " Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
   static_page:
     home:
       title: "Home"
@@ -18,7 +28,6 @@ en:
       to: "To get help on this sample app, see the"
       ruby: "Ruby on Rails Tutorial"
       book: "book"
-      link:  link_to  t("static_page.help.rails"), "http://www.railstutorial.org/help"
     contact:
       title: "Contact"
       contact: "Contact"
