@@ -1,0 +1,33 @@
+vi:
+  application:
+      top: "| Ruby on Rails Tutorial vi du ung dung"
+  static_page:
+    home:
+      title: "Trang chu"
+      sa: "vi du app"
+      this: "Day la trang chu cua"
+      ruby: "huong dan Ruby on Rails "
+      sample: "vi du cho ung dung."
+    help:
+      title: Ho tro
+      help: "Ho tro"
+      get: "bam help on the Ruby on Rails Tutorial tai "
+      rails: "Rails Tutorial help phan"
+      to: "de duoc ho tro cho vi du app, xem tren "
+      ruby: "Ruby on Rails Tutorial"
+      book: "sach"
+    contact:
+      contact: "Lien he"
+      sam: "Lien he Ruby on Rails Tutorial ve vi du tai "
+      page: "trang lien he"
+    about:
+      about: "Ve"
+      the: ""
+      ruby: "Ruby on Rails Tutorial"
+      is: " la mot"
+      book: "sach"
+      and: " va"
+      app: "screencast loat"
+      to: "de huong dan phat trien voi"
+      rails: "Ruby on Rails"
+      this: "vi du ug dung nay application cho huong dan."
