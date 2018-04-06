@@ -1,4 +1,4 @@
 <% provide(:title, t("static_page.contact.title") )%>
 <h1> <%= t "static_page.contact.contact" %> </h1>
-<p> <%= t "static_page.contact.sam" %> <a href="http://www.railstutorial.org/contact"> <%= t "static_page.contact.page" %> </a>.
-</p>
+<p> <%=sanitize t("static_page.contact.link", link_contact: link_to( t("static_page.about.ruby"), "http://www.railstutorial.org/")) %> </p>
+

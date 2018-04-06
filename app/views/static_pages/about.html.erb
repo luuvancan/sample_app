@@ -1,9 +1,5 @@
 <% provide(:title, t("static_page.about.title") )%>
 <h1> <%= t "static_page.about.about"%> </h1>
 <p>
-  <h1> <%= t "static_page.about.the"%> </h1><a href="http://www.railstutorial.org/"><em><h1> <%= t "static_page.about.ruby" %> </h1></em></a><h1> <%= t "static_page.about.is" %> </h1>
-  <a href="http://www.railstutorial.org/book"><h1> <%= t "static_page.about.book" %> </h1></a>
-  <h1> <%= t "static_page.about.to" %> </h1>
-  <a href="http://rubyonrails.org/"><h1> <%= t "static_page.about.rails" %> </h1></a>
-  <h1> <%= t "static_page.about.this" %> </h1>
+    <%=sanitize t("static_page.about.to", link_rails: link_to( t("static_page.about.ruby"), "http://www.railstutorial.org/"), link_book: link_to( t("static_page.about.book"), "http://www.railstutorial.org/book"), link_rails1: link_to( t("static_page.about.rails"), "http://rubyonrails.org/")) %>
 </p>

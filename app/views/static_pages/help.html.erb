@@ -1,4 +1,4 @@
 <% provide(:title, t("static_page.help.title") )%>
 <h1> <%= t "static_page.help.help" %> </h1>
-<p> <%= t "static_page.help.get" %> <a href="http://www.railstutorial.org/help"> <%= t "static_page.help.rails" %></a>. <%= t "static_page.help.to" %> <a href="http://www.railstutorial.org/book"><em> <%= t "static_page.help.ruby" %> </em> <%= t "static_page.help.book" %> </a>.
+<p> <%= t "static_page.help.get" %> <%= t "static_page.help.link" %>.<%= t "static_page.help.to" %> <em> <%= link_to t("static_page.help.ruby"), "http://www.railstutorial.org/book" %> </em>
 </p>
