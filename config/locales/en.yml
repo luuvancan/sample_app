@@ -1,7 +1,8 @@
 en:
+
   layouts:
     application:
-      title: "| Ruby on Rails Tutorial Sample App"
+      title: "Ruby on Rails Tutorial Sample App"
   static_page:
     home:
       title: "Home"
@@ -17,11 +18,13 @@ en:
       to: "To get help on this sample app, see the"
       ruby: "Ruby on Rails Tutorial"
       book: "book"
+      link:  link_to  t("static_page.help.rails"), "http://www.railstutorial.org/help"
     contact:
       title: "Contact"
       contact: "Contact"
       sam: "Contact the Ruby on Rails Tutorial about the sample app at the"
       page: "contact page"
+      link: "Contact the Ruby on Rails Tutorial about the sample app at the %{link_contact}"
     about:
       title: "About"
       about: "About"
@@ -34,3 +37,5 @@ en:
       to: "to teach web development with"
       rails: "Ruby on Rails"
       this: "This is the sample application for the tutorial."
+      to: "To get help on this sample app, see the %{link_rails} is a %{link_book} and
+       to teach the web site development with %{link_rails1}"
